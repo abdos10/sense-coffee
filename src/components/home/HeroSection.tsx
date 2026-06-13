@@ -4,7 +4,7 @@ import { site } from "@/data/site";
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-brand-dark bg-[url('/images/background-mobile.png')] md:bg-[url('/images/background.png')] bg-cover bg-center">
-      <div className="absolute inset-0 bg-black/10" />
+      <div className="absolute inset-0 bg-black/25" />
 
       <div className="relative pb-15 z-10 w-full mx-auto max-w-7xl px-4 md:px-8">
         <div className="max-w-2xl text-center md:text-left mx-auto md:mx-0">

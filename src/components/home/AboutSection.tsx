@@ -46,7 +46,7 @@ export default function AboutSection() {
   ];
 
   return (
-    <section id="about" className="relative py-[100px] bg-[#261A14]">
+    <section id="about" className="relative py-[100px] bg-[#6B4F28]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 mb-5 text-xs font-medium text-brand-gold tracking-[0.15em] bg-brand-gold/10 rounded-full">

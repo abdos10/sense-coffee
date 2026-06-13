@@ -4,7 +4,7 @@ import ContactForm from "@/components/contact/ContactForm";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="relative py-20 md:py-28 bg-[#1E140F]">
+    <section id="contact" className="relative py-20 md:py-28 bg-[#7A5C2E]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <span className="inline-flex items-center gap-2 px-4 py-1 mb-5 text-xs font-medium text-brand-gold tracking-wider bg-brand-gold/10 rounded-full">
