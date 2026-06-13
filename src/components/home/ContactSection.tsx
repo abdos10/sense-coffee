@@ -4,16 +4,16 @@ import ContactForm from "@/components/contact/ContactForm";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="relative py-20 md:py-28">
+    <section id="contact" className="relative py-20 md:py-28 bg-[#1E140F]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <span className="inline-flex items-center gap-2 px-4 py-1 mb-5 text-xs font-medium text-brand-gold tracking-wider bg-brand-gold/10 rounded-full">
             Get In Touch
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-brand-dark">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-white">
             Contact Us
           </h2>
-          <p className="text-brand-coffee/60 max-w-2xl mx-auto leading-relaxed mt-3">
+          <p className="text-white/50 max-w-2xl mx-auto leading-relaxed mt-3">
             Our team is ready to answer your inquiries and fulfill your orders.
           </p>
         </div>

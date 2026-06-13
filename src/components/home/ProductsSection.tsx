@@ -23,16 +23,16 @@ export default function ProductsSection() {
   const rest = placeholderProducts.slice(6);
 
   return (
-    <section id="products" className="relative py-20 md:py-28">
+    <section id="products" className="relative py-20 md:py-28 bg-[#1E140F]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <span className="inline-flex items-center gap-2 px-4 py-1 mb-5 text-xs font-medium text-brand-gold tracking-wider bg-brand-gold/10 rounded-full">
             Our Selection
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-brand-dark">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-white">
             Our Products
           </h2>
-          <p className="text-brand-coffee/60 max-w-2xl mx-auto leading-relaxed mt-3">
+          <p className="text-white/50 max-w-2xl mx-auto leading-relaxed mt-3">
             A wide selection of carefully roasted coffee to suit every taste
           </p>
         </div>

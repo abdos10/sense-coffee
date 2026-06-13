@@ -46,16 +46,16 @@ export default function AboutSection() {
   ];
 
   return (
-    <section id="about" className="relative py-[100px]">
+    <section id="about" className="relative py-[100px] bg-[#261A14]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 mb-5 text-xs font-medium text-brand-gold tracking-[0.15em] bg-brand-gold/10 rounded-full">
             OUR EXPERTISE
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-brand-dark leading-tight mb-5">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-white leading-tight mb-5">
             More Than Coffee — We Craft the Perfect Experience
           </h2>
-          <p className="text-[#6B6B6B] text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
+          <p className="text-white/55 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
             From sourcing the world&apos;s finest beans to roasting, grinding, and equipping caf&eacute;s, we bring every step of the coffee journey together under one roof.
           </p>
         </div>
@@ -64,17 +64,17 @@ export default function AboutSection() {
           {cards.map((card, index) => (
             <div
               key={card.title}
-              className={`group rounded-[20px] p-8 shadow-[0_2px_12px_rgba(0,0,0,0.06)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.10)] hover:-translate-y-1.5 transition-all duration-300 ease-out animate-fade-in-up ${
-                index % 2 === 0 ? "bg-white" : "bg-[#F8F4EE]"
+              className={`group rounded-[20px] p-8 shadow-[0_2px_12px_rgba(0,0,0,0.2)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.35)] hover:-translate-y-1.5 transition-all duration-300 ease-out animate-fade-in-up ${
+                index % 2 === 0 ? "bg-white/5" : "bg-white/[0.08]"
               }`}
             >
               <div className="text-brand-gold mb-6 inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-brand-gold/10">
                 {card.icon}
               </div>
-              <h3 className="font-display text-xl text-brand-dark mb-3">
+              <h3 className="font-display text-xl text-white mb-3">
                 {card.title}
               </h3>
-              <p className="text-[#6B6B6B] text-sm leading-relaxed">
+              <p className="text-white/55 text-sm leading-relaxed">
                 {card.desc}
               </p>
             </div>

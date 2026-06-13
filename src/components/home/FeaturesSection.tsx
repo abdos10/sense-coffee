@@ -42,45 +42,29 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section className="relative py-16 md:py-20 bg-gold/10">
+    <section className="relative py-16 md:py-20 bg-[#1E140F]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-        <p className="text-center  text-gold/50 text-sm md:text-base tracking-wide mb-10 md:mb-12">
+        <p className="text-center text-brand-gold/50 text-sm md:text-base tracking-wide mb-10 md:mb-12">
           From bean to cup — exceptional quality at every step
         </p>
-        
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
-          {[
-            { icon: "coffee", title: "Premium Selection", desc: "We carefully select the finest coffee beans from the best regions worldwide." },
-            { icon: "roast", title: "Perfect Roast", desc: "Small-batch roasting to extract the deepest flavors from every bean." },
-            { icon: "blend", title: "Exclusive Blends", desc: "Unique blends crafted to suit every palate and preference." },
-            { icon: "delivery", title: "Fresh Delivery", desc: "Freshly roasted coffee delivered to your doorstep." },
-          ].map((item) => (
-            <div key={item.title} className="text-center">
-              <span className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-brand-gold/10 text-brand-gold mb-3">
-                {item.icon === "coffee" && (
-                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M17 8h1a4 4 0 1 1 0 8h-1" />
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z" />
-                  </svg>
-                )}
-                {item.icon === "roast" && (
-                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5Z" />
-                  </svg>
-                )}
-                {item.icon === "blend" && (
-                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09Z" />
-                  </svg>
-                )}
-                {item.icon === "delivery" && (
-                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
-                  </svg>
-                )}
-              </span>
-              <h4 className="font-display text-sm text-brand-dark mb-1">{item.title}</h4>
-              <p className="text-brand-coffee/60 text-xs leading-relaxed">{item.desc}</p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
+          {features.map((feature) => (
+            <div
+              key={feature.title}
+              className="group relative rounded-2xl p-6 md:p-7 bg-white/[0.03] border border-white/[0.06] backdrop-blur-sm shadow-lg shadow-black/20 hover:bg-white/[0.06] hover:border-[#C89B3C]/30 hover:shadow-[#C89B3C]/5 transition-all duration-500 ease-out"
+            >
+              <div className="flex items-center gap-4 mb-3">
+                <div className="text-[#C89B3C] shrink-0 inline-flex items-center justify-center w-12 h-12 rounded-xl bg-[#C89B3C]/10 group-hover:bg-[#C89B3C]/20 transition-colors duration-500">
+                  {feature.icon}
+                </div>
+                <h3 className="text-white font-semibold text-base md:text-lg group-hover:text-[#C89B3C] transition-colors duration-500">
+                  {feature.title}
+                </h3>
+              </div>
+              <p className="text-white/50 text-sm leading-relaxed">
+                {feature.desc}
+              </p>
             </div>
           ))}
         </div>
