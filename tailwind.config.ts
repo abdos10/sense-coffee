@@ -10,8 +10,8 @@ const config: Config = {
           dark: "#3B241A",
           coffee: "#5C3D2E",
           gold: {
-            DEFAULT: "#C9A66B",
-            light: "#D4B981",
+            DEFAULT: "#DAAA1BF6",
+            light: "#EEC165",
           },
           cream: "#F8F4EE",
           espresso: "#2B1B14",
@@ -19,6 +19,7 @@ const config: Config = {
       },
       scale: {
         "103": "1.03",
+        "104": "1.04",
       },
       fontFamily: {
         arabic: ["var(--font-arabic)", "Tahoma", "Arial", "sans-serif"],

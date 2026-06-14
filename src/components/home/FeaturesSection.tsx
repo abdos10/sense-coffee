@@ -44,7 +44,7 @@ export default function FeaturesSection() {
   return (
     <section className="relative py-16 md:py-20 bg-[#7A5C2E]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-        <p className="text-center text-brand-gold/50 text-sm md:text-base tracking-wide mb-10 md:mb-12">
+        <p className="text-center text-white text-sm md:text-base tracking-wide mb-10 md:mb-12">
           From bean to cup — exceptional quality at every step
         </p>
 
