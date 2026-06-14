@@ -56,8 +56,8 @@ export const metadata: Metadata = {
     `${site.name} - Premium coffee roasting and supply company in Qatar. Freshly roasted coffee beans sourced from the world's finest origins.`,
   metadataBase: new URL(site.url),
   icons: {
-    icon: "/favicon.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/images/logo/logo.png",
+    apple: "/images/logo/logo.png",
   },
   openGraph: {
     type: "website",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     url: site.url,
     images: [
       {
-        url: "/og-image.png",
+        url: "/public/image/logo/logo.png",
         width: 1200,
         height: 630,
         alt: site.name,
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: site.name,
     description: `${site.name} - Premium coffee roasting and supply company in Qatar.`,
-    images: ["/og-image.png"],
+    images: ["/images/logo/logo.png"],
   },
   alternates: {
     canonical: site.url,
