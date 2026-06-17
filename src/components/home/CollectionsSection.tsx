@@ -54,8 +54,8 @@ export default function CollectionsSection() {
   }, []);
 
   return (
-    <section className="bg-brand-cream py-[120px]">
-      <div className="max-w-7xl mx-auto px-4 md:px-8">
+    <section id="collections" className="bg-brand-cream py-[120px]">
+      <div className="max-w-7xl mx-auto ; px-4 md:px-8">
         <div className="text-center">
           <h2 className="font-display text-[32px] md:text-[42px] font-semibold text-brand-coffee max-w-[600px] mx-auto leading-[1.2]">
             Big collection of coffee
@@ -65,7 +65,7 @@ export default function CollectionsSection() {
           </p>
         </div>
 
-        <div className="relative mt-16 md:mt-20">
+        <div className="relative ml-16 mt-14 md:mt-18">
           <button
             onClick={() => scrollByCard("left")}
             disabled={!canScrollLeft}
