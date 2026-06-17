@@ -58,7 +58,7 @@ export default function CollectionsSection() {
       <div className="max-w-7xl mx-auto ; px-4 md:px-8">
         <div className="text-center">
           <h2 className="font-display text-[32px] md:text-[42px] font-semibold text-brand-coffee max-w-[600px] mx-auto leading-[1.2]">
-            Big collection of coffee
+            Big collection !
           </h2>
           <p className="text-[15px] text-coffee leading-relaxed max-w-[600px] mx-auto mt-5">
             A wide range of coffee beans from different origins, roasted to perfection.
@@ -93,7 +93,7 @@ export default function CollectionsSection() {
 
           <div
             ref={scrollRef}
-            className="flex gap-10 overflow-x-auto snap-x snap-mandatory scroll-smooth no-scrollbar"
+            className="flex gap-10 overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth no-scrollbar"
           >
             {collections.map((item) => (
               <div

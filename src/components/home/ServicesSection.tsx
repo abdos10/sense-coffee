@@ -69,13 +69,12 @@ export default function AboutSection() {
   return (
     <section id="about" className="overflow-hidden bg-[#FAF7F2] py-[100px] md:py-[120px]">
       <div className="mx-auto max-w-7xl px-4 md:px-8 lg:px-12">
-        <div className="mb-12 text-center md:mb-16">
-          <p className="mb-3 text-[13px] font-semibold uppercase tracking-[3px] text-[#B58A4A]">
-            Our Services
-          </p>
-          <h2 className="font-display text-[34px] font-bold leading-[1.15] text-[#2D241C] md:text-[42px]">
-            What We Offer
+      <div className="text-center">
+          <h2 className="font-display text-[32px] md:text-[42px] font-semibold text-brand-coffee max-w-[600px] mx-auto leading-[1.2]">
+            what we provide 
           </h2>
+          <p className="text-[15px] text-coffee leading-relaxed max-w-[600px] mx-auto mt-5 mb-8">
+more than a cup of coffee....          </p>
         </div>
 
         <div className="flex flex-col items-center gap-12 lg:flex-row lg:gap-16">
