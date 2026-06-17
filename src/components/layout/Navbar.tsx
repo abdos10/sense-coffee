@@ -54,7 +54,7 @@ export default function Navbar() {
               href={site.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center h-11 w-11 bg-brand-gold text-brand-dark rounded-full hover:bg-brand-gold/90 transition-all duration-300"
+              className="inline-flex items-center justify-center h-11 w-11  bg-brand-gold/80 border-2 border-brand-gold text-brand-dark rounded-full hover:bg-brand-gold/90 transition-all duration-300"
               aria-label="Instagram"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -67,7 +67,7 @@ export default function Navbar() {
               href={site.facebook}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center h-11 w-11 bg-brand-gold text-brand-dark rounded-full hover:bg-brand-gold/90 transition-all duration-300"
+              className="inline-flex items-center justify-center h-11 w-11 bg-brand-gold/80 border-2 border-brand-gold text-brand-dark rounded-full hover:bg-brand-gold/90 transition-all duration-300"
               aria-label="Facebook"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -76,7 +76,7 @@ export default function Navbar() {
             </a>
             <Link
               href="/#contact"
-              className="inline-flex items-center justify-center h-11 w-11 bg-brand-gold text-brand-dark rounded-full hover:bg-brand-gold/90 transition-all duration-300"
+              className="inline-flex items-center justify-center h-11 w-11  bg-brand-gold/80 border-2 border-brand-gold text-brand-dark rounded-full hover:bg-brand-gold/90 transition-all duration-300"
               aria-label="Contact"
             >
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
