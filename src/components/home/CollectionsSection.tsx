@@ -55,7 +55,7 @@ export default function CollectionsSection() {
 
   return (
     <section id="collections" className="bg-brand-cream py-[120px]">
-      <div className="max-w-7xl mx-auto ; px-4 md:px-8">
+      <div className="max-w mx-auto ; px-4 md:px-8 ">
         <div className="text-center">
           <h2 className="font-display text-[32px] md:text-[42px] font-semibold text-brand-coffee max-w-[600px] mx-auto leading-[1.2]">
             Big collection !
@@ -69,9 +69,9 @@ export default function CollectionsSection() {
           <button
             onClick={() => scrollByCard("left")}
             disabled={!canScrollLeft}
-            className={`absolute left-0 top-1/2 -translate-y-1/2 z-10 w-14 h-14 rounded-full bg-brand-gold text-brand-espresso flex items-center justify-center hover:bg-brand-gold/80 transition-all shadow-lg ${
+            className={`absolute left-[-60px] top-1/2 -translate-y-1/2 z-10 w-14 h-14 rounded-full bg-brand-gold text-brand-espresso flex items-center justify-center hover:bg-brand-gold/80 transition-all shadow-lg ${
               canScrollLeft ? "opacity-100" : "opacity-0 pointer-events-none"
-            } max-md:-left-2`}
+            }`}
             aria-label="Previous"
           >
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
