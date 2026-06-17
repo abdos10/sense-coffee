@@ -76,7 +76,7 @@ export default function MobileNav() {
       <button
         ref={toggleRef}
         onClick={() => setOpen(true)}
-        className="p-2 text-brand-gold/80 hover:text-brand-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent rounded-lg"
+        className="p-2 mb-3 text-brand-gold/80 hover:text-brand-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent rounded-lg"
         aria-label="Open menu"
         aria-expanded={open}
         aria-controls="mobile-menu"
@@ -100,7 +100,7 @@ export default function MobileNav() {
             className="relative h-full w-64 bg-[#F8F4EE] shadow-xl flex flex-col"
             id="mobile-menu"
           >
-            <div className="flex items-center justify-between px-4 py-3 border-b border-brand-gold/10">
+            <div className="flex items-center justify-between px-4 py-3 border-b border-brand-gold/90">
               <Image
                 src="/images/logo/logo.png"
                 alt={site.name}

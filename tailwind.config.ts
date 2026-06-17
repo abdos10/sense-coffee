@@ -10,7 +10,7 @@ const config: Config = {
           dark: "#3B241A",
           coffee: "#5C3D2E",
           gold: {
-            DEFAULT: "#DAAA1BF6",
+            DEFAULT: "#C4931AF6",
             light: "#EEC165",
           },
           cream: "#F8F4EE",

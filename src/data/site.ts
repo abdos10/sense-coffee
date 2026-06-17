@@ -1,12 +1,12 @@
 export const site = {
-  name: "Coffee Land",
+  name: "Sense Coffee",
   phone: "+974 XXXX XXXX",
   whatsappNumber: "974XXXXXXXX",
   whatsappMessage: "Hello, I would like to inquire about your products",
   foundedYear: 2024,
   location: "Doha, Qatar",
-  url: "https://coffeeland.qa",
-  email: "info@coffeeland.qa",
-  instagram: "https://instagram.com/coffeeland",
-  facebook: "https://facebook.com/coffeeland",
+  url: "https://sensecoffee.qa",
+  email: "info@sensecoffee.qa",
+  instagram: "https://instagram.com/sensecoffee",
+  facebook: "https://facebook.com/sensecoffee",
 };

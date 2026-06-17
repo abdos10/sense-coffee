@@ -1,32 +1,23 @@
 import Link from "next/link";
 import { site } from "@/data/site";
-import LuxuryBadge from "./LuxuryBadge";
+// import LuxuryBadge from "./LuxuryBadge";
 
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex flex-col overflow-hidden bg-brand-dark bg-[url('/images/background-mobile.png')] md:bg-[url('/images/background.png')] bg-cover bg-center">
-      <div className="absolute inset-0 bg-black/25" />
+      <div className="absolute inset-0 bg-black/15" />
 
       <div className="relative pb-15 z-10 w-full mx-auto max-w-7xl px-4 md:px-8 flex flex-col flex-1">
-        <div className="max-w-2xl text-center lg:text-left mx-auto lg:mx-0 flex-1 flex flex-col justify-center">
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white leading-tight md:leading-tight lg:leading-tight mb-6 md:mb-8">
-            From Our Roastery to Your Cup
+        <div className="w-fit text-center mx-auto flex-1 flex flex-col justify-end pb-12">
+          <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-5xl text-white leading-tight md:leading-tight lg:leading-tight mb-6 md:mb-8 sm:whitespace-nowrap">
+          Experience the difference from the first sip ☕
           </h1>
 
-          <p className="text-base sm:text-lg md:text-xl text-white/70 leading-relaxed max-w-xl mb-8 md:mb-19">
-            Premium coffee beans sourced from the world&apos;s finest origins, expertly roasted and crafted to deliver exceptional flavor in every cup.
+          <p className="mb-8 text-[11.5px]  font-semibold tracking-wide text-brand-gold drop-shadow-[0_1px_3px_rgba(0, 0, 0, 0.78)] text-brand-gold/90 whitespace-nowrap sm:mb-19 sm:text-lg sm:tracking-normal md:text-xl sm:whitespace-normal">
+            • Unique selection • Fresh Roasted • Premium Quality
           </p>
 
-          <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-            <Link
-              href="/#products"
-              className="group inline-flex items-center gap-2 px-6 md:px-6 py-3.5 md:py-4 text-base md:text-lg font-light text-white bg-gradient-to-r from-brand-gold/70 to-brand-gold-light/70 rounded-2xl shadow-lg shadow-brand-gold/40 hover:shadow-xl hover:shadow-brand-gold/30 hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-gold focus:ring-offset-brand-dark"
-            >
-              Shop Now
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </Link>
+          <div className="flex flex-wrap gap-4 justify-center">
             <Link
               href="/#products"
               className="group inline-flex items-center gap-2 px-6 md:px-6 py-3.5 md:py-4 text-base md:text-lg font-light text-white/90 border-2 border-brand-gold/70 rounded-2xl hover:bg-brand-gold/10 hover:border-brand-gold/60 hover:-translate-y-0.5 transition-all duration-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-gold focus:ring-offset-brand-dark"
@@ -35,7 +26,7 @@ export default function HeroSection() {
             </Link>
           </div>
         </div>
-        <div className="mb-12"><LuxuryBadge /></div>
+        {/* <div className="mb-12"><LuxuryBadge /></div> */}
         
       </div>
     </section>

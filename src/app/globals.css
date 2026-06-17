@@ -33,3 +33,21 @@
     transform: translateY(0);
   }
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.text-3d-gold {
+  color: #ffe08a;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  text-shadow:
+    0 1px 0 #d4a84a,
+    0 2px 0 #8b6424,
+    0 4px 10px rgba(0, 0, 0, 0.55);
+}

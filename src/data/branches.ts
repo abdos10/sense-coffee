@@ -3,7 +3,7 @@ import type { Branch } from "@/types";
 export const branches: Branch[] = [
   {
     id: "main-branch",
-    name: "Coffee Land - Main Branch",
+    name: "Sense Coffee - Main Branch",
     address: "",
     area: "Doha",
     phone: "+974 XXXX XXXX",
@@ -13,7 +13,7 @@ export const branches: Branch[] = [
     },
     image: {
       src: "/images/branches/branch.png",
-      alt: "Coffee Land Main Branch",
+      alt: "Sense Coffee Main Branch",
     },
     order: 1,
   },

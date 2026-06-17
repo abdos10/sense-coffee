@@ -57,7 +57,7 @@ export default function LuxuryBadge() {
             fontWeight="700"
             letterSpacing="1"
           >
-            COFFEE LAND
+            SENSE COFFEE
           </text>
 
           <text
