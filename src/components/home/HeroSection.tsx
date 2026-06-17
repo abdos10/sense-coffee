@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/15" />
 
       <div className="relative pb-15 z-10 w-full mx-auto max-w-7xl px-4 md:px-8 flex flex-col flex-1">
-        <div className="w-fit text-center mx-auto flex-1 flex flex-col justify-end pb-12">
+        <div className="w-fit text-center mx-auto flex-1 flex flex-col justify-end pb-16">
           <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-5xl text-white leading-tight md:leading-tight lg:leading-tight mb-6 md:mb-8 sm:whitespace-nowrap">
           Experience the difference from the first sip ☕
           </h1>
